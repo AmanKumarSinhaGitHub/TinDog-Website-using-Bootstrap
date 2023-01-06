@@ -1,0 +1,186 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    font-family: "Montserrat-Bold", sans-serif;
+    font-weight: bolder;
+  }
+
+#title {
+    background-color: #ff4c68;
+    text-align: left;
+}
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+.web-des {
+    font-size: 3rem;
+    line-height: 1.5;
+    color: white;
+}
+
+/* Nav Bar */
+
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: "Ubantu";
+    font-size: 2.5rem;
+    font-weight: bolder;
+}
+
+.nav-item {
+    padding: 0 18px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-light";
+}
+
+/* Download Buttons */
+
+.download-btn {
+    margin: 5% 3% 5% 0;
+}
+
+/* Title IMG */
+
+.title-img {
+    width: 22%;
+    transform: rotate(25deg);
+    right: 25%;
+    position: absolute;
+}
+
+#title .container-fluid{
+    padding: 3% 15% 7%;
+}
+
+/* Feature Section */
+#features {
+    background-color: white;
+    position: relative;
+}
+
+
+.feature-icons {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.feature-icons:hover {
+    color: #ff4c68;
+}
+
+.feature-heading {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.feature-p {
+    color: #8f8f8f;
+}
+
+/* testimonials */
+
+#testimonials {
+    background-color: #ef8172;
+    color: white;
+}
+
+
+
+.testimonial-text {
+    font-size: 2.2rem;
+    line-height: 1.5;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+
+/* Press Section */
+
+#press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+
+/* Pricing Section */
+
+#pricing {
+    padding: 100px;
+}
+
+.pricing-col {
+    padding: 3% 2%;
+}
+
+.card-title {
+    font-weight: bolder;
+}
+
+.price {
+    font-weight: bolder;
+}
+
+
+/* On Tab or Mobile */
+@media (max-width: 990px) {
+
+    #title{
+        text-align: center;
+    }
+
+    .title-img{
+        position: static;
+        transform: rotate(0);
+        width: 55%;
+    }
+}
+
+/* -- Call to Action -- */
+
+#cta{
+    background-color: #ff4c68;
+}
+
+.cta-title{
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: bolder;
+    color: white;
+    
+}
+
+/* footer */
+
+#footer{
+    color: white;
+}
+
+#footer-p{
+    color: #8f8f8f;
+}
+
+.footer-link{
+    text-decoration: none;
+    padding: 9px;
+    color: black;
+}
